@@ -1,0 +1,24 @@
+"2024-12-23 10:39:41 [main] INFO  c.sentura.bLow.BLowApplicationTests - Starting BLowApplicationTests using Java 1.8.0_401 on LAPTOP-GDGKQ53B with PID 10684 (started by Sandun in C:\SENTURA TECHNOLOGIES PVT LTD\Project\BLow\blow-service)
+""2024-12-23 10:39:41 [main] INFO  c.sentura.bLow.BLowApplicationTests - No active profile set, falling back to default profiles: default
+""2024-12-23 10:39:42 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+""2024-12-23 10:39:42 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 117 ms. Found 23 JPA repository interfaces.
+""2024-12-23 10:39:42 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler@6ec7bce0' of type [org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+""2024-12-23 10:39:43 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'methodSecurityMetadataSource' of type [org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+""2024-12-23 10:39:43 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+""2024-12-23 10:39:43 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.4.29.Final
+""2024-12-23 10:39:43 [main] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+""2024-12-23 10:39:43 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+""2024-12-23 10:39:50 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+""2024-12-23 10:39:50 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+""2024-12-23 10:40:22 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+""2024-12-23 10:40:22 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+""2024-12-23 10:40:22 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+""2024-12-23 10:40:24 [main] INFO  o.s.s.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@78829412, org.springframework.security.web.context.SecurityContextPersistenceFilter@5eef8a16, org.springframework.security.web.header.HeaderWriterFilter@16f8df70, org.springframework.web.filter.CorsFilter@3ba8ef4e, org.springframework.security.web.authentication.logout.LogoutFilter@7f94541b, com.sentura.bLow.configuration.JwtRequestFilter@1123d461, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@18c60d81, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@20960b51, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@6d0bcf8c, org.springframework.security.web.session.SessionManagementFilter@247dcbba, org.springframework.security.web.access.ExceptionTranslationFilter@19fc0ef7, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@2c1a95a2]
+""2024-12-23 10:40:24 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+""2024-12-23 10:40:24 [main] WARN  o.s.b.a.t.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration - Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+""2024-12-23 10:40:24 [main] INFO  c.sentura.bLow.BLowApplicationTests - Started BLowApplicationTests in 43.316 seconds (JVM running for 44.187)
+""2024-12-23 10:40:24 [SpringContextShutdownHook] INFO  o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+""2024-12-23 10:40:24 [SpringContextShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+""2024-12-23 10:40:24 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+""2024-12-23 10:40:25 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+"
