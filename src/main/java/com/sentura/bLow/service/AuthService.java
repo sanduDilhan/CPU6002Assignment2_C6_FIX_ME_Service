@@ -77,7 +77,6 @@ public class AuthService {
             return new ResponseDto("500","That email is taken. Try another one!");
         } else {
             String verifyCode = new Utilities().generateRandomNumber();
-
             Stripe.apiKey = stripeSecretKey;
 
             UserDetail detail = new UserDetail();

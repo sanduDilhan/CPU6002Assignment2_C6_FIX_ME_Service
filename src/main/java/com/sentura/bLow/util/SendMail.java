@@ -29,7 +29,6 @@ public class SendMail {
 
     @Value("${mail.password}")
     private String mailPassword;
-//    private String mailPassword = "gdor safw demh hpik";
 
     @Value("${mail.port}")
     private String mailPort;
