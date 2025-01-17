@@ -52,6 +52,7 @@ public class MealPlanService {
         UserMealPlan userMealPlan = new UserMealPlan();
 
         UserDetail userDetail = authRepository.findUserByUserIdAndIsActiveTrue(mealPlanDTO.getUserMealPlanDTO().getUserDetailId());
+
         userMealPlan.setUserDetail(userDetail);
         userMealPlan.setMealPlanName(mealPlanDTO.getUserMealPlanDTO().getMealPlanName());
         userMealPlan.setIsActive(true);
