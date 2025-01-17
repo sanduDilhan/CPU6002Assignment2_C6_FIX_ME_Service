@@ -73,8 +73,6 @@ public class RecipeDetailService {
         Gson gson = new Gson();
         RecipeDetailDTO recipeDetailDTO = gson.fromJson(recipe, RecipeDetailDTO.class);
 
-//        RecipeCategory recipeCategory = recipeCategoryRepository.findById(recipeDetailDTO.getRecipeCategoryId()).get();
-
         RecipeDetail recipeDetail = new RecipeDetail();
         recipeDetail.setRecipeDetailId(0L);
         recipeDetail.setRecipeCategoryId(recipeDetailDTO.getRecipeCategoryId());
