@@ -61,16 +61,6 @@ public class IngredientDetailService {
         ingredientDetail.setMeasurementType(ingredientDetailDTO.getMeasurementType());
         ingredientDetail.setMeasurement(ingredientDetailDTO.getMeasurement());
 
-//        if(ingredientDetailDTO.getMeasurementType().equals("100g")){
-//            ingredientDetailDTO.setMeasurement(100.0);
-//        }else if(ingredientDetailDTO.getMeasurementType().equals("100ml")){
-//            ingredientDetailDTO.setMeasurement(100.0);
-//        }else{
-//            ingredientDetailDTO.setMeasurement(1.0);
-//        }
-
-//        ingredientDetail.setMeasurement(ingredientDetailDTO.getMeasurement());
-
         if(ingredientDetailDTO.getCarbs() == null || ingredientDetailDTO.getCarbs() == 0){
             ingredientDetail.setCarbs(0.0);
         }else {
