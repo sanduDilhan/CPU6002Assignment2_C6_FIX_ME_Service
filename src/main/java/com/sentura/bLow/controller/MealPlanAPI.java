@@ -25,10 +25,12 @@ public class MealPlanAPI {
         return new ResponseEntity<>(mealPlanService.get(mealPlanId), HttpStatus.OK);
     }
 
+
     @GetMapping("/get-all/{userDetailId}")
     public ResponseEntity<ResponseDto> getAll(@PathVariable("userDetailId") long userDetailId) throws Exception{
         return new ResponseEntity<>(mealPlanService.getAll(userDetailId), HttpStatus.OK);
     }
+
 
     @PostMapping("/updateMealPlanName")
     public ResponseEntity<ResponseDto> updateMealPlanName(
