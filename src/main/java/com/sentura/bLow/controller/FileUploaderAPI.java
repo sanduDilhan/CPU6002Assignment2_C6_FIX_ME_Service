@@ -24,5 +24,6 @@ public class FileUploaderAPI {
     public ResponseEntity<CommonResponse> saveRecipe(
             @RequestParam(value = "image") MultipartFile image) throws Exception{
         return new ResponseEntity<>(fileUploaderService.saveFile(image), HttpStatus.OK);
+
     }
 }

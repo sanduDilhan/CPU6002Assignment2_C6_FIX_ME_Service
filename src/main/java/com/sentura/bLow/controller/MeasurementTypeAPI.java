@@ -23,11 +23,13 @@ public class MeasurementTypeAPI {
 
     @GetMapping("/delete/{measurementTypeId}")
     public ResponseEntity<ResponseDto> delete(@PathVariable("measurementTypeId") Long measurementTypeId) throws Exception{
+
         return new ResponseEntity<>(measurementTypeService.deleteMeasurementType(measurementTypeId), HttpStatus.OK);
     }
 
     @GetMapping("/getAllActiveMeasurement")
     public ResponseEntity<ResponseDto> getAllActiveMeasurementType() throws Exception{
+
         return new ResponseEntity<>(measurementTypeService.getAllActiveMeasurementType(), HttpStatus.OK);
     }
 }
