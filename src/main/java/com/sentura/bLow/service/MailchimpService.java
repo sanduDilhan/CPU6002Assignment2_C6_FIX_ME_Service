@@ -70,7 +70,7 @@ public class MailchimpService {
             byte[] messageDigest = md.digest();
             return DatatypeConverter.printHexBinary(messageDigest).toLowerCase();
         }
-        // For specifying wrong message digest algorithms
+
         catch (NoSuchAlgorithmException e) {
             throw new RuntimeException(e);
         }
