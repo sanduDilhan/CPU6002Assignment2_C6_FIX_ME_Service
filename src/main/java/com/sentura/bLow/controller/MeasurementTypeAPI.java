@@ -18,7 +18,6 @@ public class MeasurementTypeAPI {
 
     @PostMapping("/save")
     public ResponseEntity<ResponseDto> create(@RequestBody MeasurementTypeDTO measurementTypeDTO) throws Exception{
-
         return new ResponseEntity<>(measurementTypeService.createMeasurementType(measurementTypeDTO), HttpStatus.OK);
     }
 
