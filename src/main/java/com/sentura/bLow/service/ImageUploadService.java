@@ -28,4 +28,5 @@ public class ImageUploadService {
             return new String[]{(archivePath + "/" + fileName),(urlPrefix + fileName),(fileName)};
         }
     }
+
 }
