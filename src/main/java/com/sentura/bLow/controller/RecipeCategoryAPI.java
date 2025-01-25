@@ -14,6 +14,7 @@ import javax.validation.Valid;
 @RequestMapping("/api/v1/recipeCategory")
 public class RecipeCategoryAPI {
 
+
     @Autowired
     private RecipeCategoryService recipeCategoryService;
 
