@@ -50,4 +50,5 @@ public class RecipeCategoryService {
         RecipeCategory recipeCategory = recipeCategoryRepository.findById(categoryId).get();
         return new ResponseDto("success", "200", recipeCategory);
     }
+
 }
